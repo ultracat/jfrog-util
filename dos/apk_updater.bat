@@ -1,4 +1,5 @@
 @echo off
+rem "This batch file is not perfect one, i will add function adding input parameters"
 
 for %%G in (*.apk) do call :generateMD5 %%G
 rem for %%G in (*.apk) do call :pushArtifactory %%G
